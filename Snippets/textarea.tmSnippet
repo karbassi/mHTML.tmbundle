@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;textarea name="${1:Name}" rows="${2:8}" cols="${3:40}"&gt;$4&lt;/textarea&gt;$0</string>
+	<string>&lt;label for="${2:${1/[[:alpha:]]+|( )/(?1:_:\L$0)/g}}"&gt;$1&lt;/label&gt;&lt;textarea name="${3:$2}" value="$4"${5: id="${6:$2}"} rows="${7:8}" cols="${8:40}"&gt;$9&lt;/textarea&gt;
+</string>
 	<key>keyEquivalent</key>
 	<string>^~@f</string>
 	<key>name</key>
@@ -11,7 +12,7 @@
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>tex</string>
+	<string>textarea</string>
 	<key>uuid</key>
 	<string>63BB62BC-8D5E-4DDF-9E7A-AD7488FB400D</string>
 </dict>

@@ -5,7 +5,8 @@
 	<key>content</key>
 	<string>&lt;div id="${1:name}"&gt;
 	${2:$TM_SELECTED_TEXT}
-&lt;/div&gt;&lt;!-- #$1 --&gt;</string>
+&lt;/div&gt;
+&lt;!-- #$1 --&gt;</string>
 	<key>keyEquivalent</key>
 	<string>^@b</string>
 	<key>name</key>

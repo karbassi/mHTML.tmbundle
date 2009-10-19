@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;hr /&gt;</string>
+	<string>&lt;hr${TM_XHTML}&gt;</string>
 	<key>name</key>
 	<string>hr</string>
 	<key>scope</key>
